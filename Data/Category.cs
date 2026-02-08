@@ -13,7 +13,7 @@ public class Category
     public string Name { get; set; } = string.Empty;
 
     // Navigation Property:
-    // This defines the "One-to-Many" relationship.
+    // This defines the "One-to-Many" relationship
     // One Category can have a List of many Quotes.
     public List<Quote> Quotes { get; set; } = new();
 }

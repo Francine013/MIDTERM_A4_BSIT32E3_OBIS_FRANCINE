@@ -8,6 +8,8 @@ public class AppDbContext : DbContext
     // constructor: Passes configuration (like connection string) to the base DbContext
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
+
+
     // DbSet: These represent the TABLES in our database.
     // We can query them like lists: _context.Quotes.ToList()
     public DbSet<Quote> Quotes { get; set; }

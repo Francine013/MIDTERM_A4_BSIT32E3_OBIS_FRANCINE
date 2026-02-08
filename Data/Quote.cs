@@ -4,7 +4,7 @@ namespace RandomQuoteApi.Data;
 
 public class Quote
 {
-    // Primary Key
+   // Primary Key
     public int Id { get; set; }
 
     // The actual text of the quote
