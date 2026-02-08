@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RandomQuoteApi.Data;
-
+ 
 #nullable disable
 
 namespace RandomQuoteApi.Migrations

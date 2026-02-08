@@ -6,7 +6,7 @@ using RandomQuoteApi.Data;
 
 #nullable disable
 
-namespace RandomQuoteApi.Migrations
+namespace RandomQuoteApi.Migrations 
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot

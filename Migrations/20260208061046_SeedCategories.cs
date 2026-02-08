@@ -8,7 +8,7 @@ namespace RandomQuoteApi.Migrations
 {
     /// <inheritdoc />
     public partial class SeedCategories : Migration
-    {
+    { 
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
