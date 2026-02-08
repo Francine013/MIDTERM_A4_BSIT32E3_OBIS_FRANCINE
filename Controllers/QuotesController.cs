@@ -11,6 +11,8 @@ public class QuotesController : ControllerBase
 {
     private readonly AppDbContext _context;
 
+
+
     // Dependency Injection: The AppDbContext is injected here automatically.
     public QuotesController(AppDbContext context)
     {
