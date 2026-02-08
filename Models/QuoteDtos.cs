@@ -10,7 +10,6 @@ public class QuoteDto
     public string Author { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
 }
-
 // DTO for creating a new quote.
 // We don't need 'Id' because the database generates it.
 public class CreateQuoteDto
